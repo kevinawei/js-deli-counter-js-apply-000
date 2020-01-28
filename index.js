@@ -1,7 +1,8 @@
-
+var map = new Map();
 function takeANumber(line,name){
   // push method adds an item to the end of an array
   line.push(name);
+  map.set(name, number);
   var length = line.length
   return "Welcome, "+name+". You are number "+ length +" in line.";
 }
