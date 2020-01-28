@@ -24,7 +24,7 @@ function currentLine(line){
   for (var i = 0; i<line.length; i++){
     if (i===line.length-1){ 
       // Syntax is different for last person in line 
-       current += i+1 + ". "+line[i];
+       current += map.get(line[i]) + ". "+line[i];
     }
     else{
     current += i+1 + ". "+line[i]+", ";
