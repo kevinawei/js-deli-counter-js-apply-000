@@ -27,7 +27,7 @@ function currentLine(line){
        current += map.get(line[i]) + ". "+line[i];
     }
     else{
-    current += i+1 + ". "+line[i]+", ";
+    current += map.get(line[i]) + ". "+line[i]+", ";
   }
   }
   return "The line is currently: "+current;
